@@ -1,7 +1,7 @@
 {
   "name": "slangs",
-  "version": "1.0.0-beta.3",
-  "description": "fun with your friends ",
+  "version": "1.0.0-beta.4",
+  "description": "Add fun to your conversations with this slang generator, offering playful slangs in multiple languages for you and your friends!",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",

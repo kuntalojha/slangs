@@ -1,11 +1,11 @@
 {
   "name": "slangs",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.3",
   "description": "fun with your friends ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "node test.test.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,20 @@
     "slangs",
     "slang",
     "friend",
-    "friends"
+    "friends",
+    "language",
+    "random",
+    "words",
+    "dictionary",
+    "expressions",
+    "fun",
+    "slang generator",
+    "multi-language",
+    "text",
+    "linguistics",
+    "casual",
+    "colloquial",
+    "slang words"
   ],
   "author": "KUNTAL OJHA",
   "license": "ISC"

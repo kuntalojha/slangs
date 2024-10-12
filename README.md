@@ -33,6 +33,7 @@ import slangs from 'slangs';
 The `slangs` function supports the following parameters:
 
 - **language**: A string specifying the language for which you want to retrieve slangs. Supported languages include:
+
   - `english`
   - `bengali`
   - `french`
@@ -109,4 +110,4 @@ Contributions to the `slangs` package are welcome! If you have suggestions or im
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the [MIT License](https://opensource.org/license/mit). See the [LICENSE](LICENSE) file for more details.

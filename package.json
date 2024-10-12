@@ -1,0 +1,29 @@
+{
+  "name": "slangs",
+  "version": "1.0.0-beta.1",
+  "description": "fun with your friends ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuntalojha/slangs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kuntalojha/slangs/issues"
+  },
+  "homepage": "https://github.com/kuntalojha/slangs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "keywords": [
+    "slangs",
+    "slang",
+    "friend",
+    "friends"
+  ],
+  "author": "KUNTAL OJHA",
+  "license": "ISC"
+}

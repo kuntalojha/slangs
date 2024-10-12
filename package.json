@@ -15,9 +15,6 @@
     "url": "https://github.com/kuntalojha/slangs/issues"
   },
   "homepage": "https://github.com/kuntalojha/slangs#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
   "keywords": [
     "slangs",
     "slang",

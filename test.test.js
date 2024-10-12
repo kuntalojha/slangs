@@ -1,5 +1,7 @@
+const { slangs, languages } = require('./index');
 
-const slangs = require('./index');
+// Get list of supported languages
+console.log(languages());
 
 // Get all slangs
 console.log(slangs()); // Get all slangs
@@ -15,4 +17,3 @@ console.log(slangs('english', 3)); // Returns 3 random English slangs
 
 // Get random slangs from unsupported language
 console.log(slangs('spanish', 2)); // Returns []
-

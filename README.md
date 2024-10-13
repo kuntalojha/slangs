@@ -1,6 +1,6 @@
 # slangs
 
-![](./hero.jpg )
+![](./hero.jpg)
 
 ## Overview
 
@@ -10,9 +10,17 @@ The `slangs` package provides a simple and efficient way to retrieve slang words
 
 To install the `slangs` package, simply include it in your project:
 
+**NPM**
+
 ```bash
-npm install slangs
+ npm install slangs
 ```
+
+| Package Manager | Command           |
+| --------------- | ----------------- |
+| **Yarn**        | `yarn add slangs` |
+| **PNPM**        | `pnpm add slangs` |
+| **BUN**         | `bun add slangs`  |
 
 ## Usage
 
@@ -21,18 +29,18 @@ npm install slangs
 To use the `slangs` package in your project, you can import it using CommonJS syntax:
 
 ```javascript
-const slangs = require('slangs');
+const { slangs, languages } = require('slangs');
 ```
 
 For projects using ES6 modules, you can also import it as follows:
 
 ```javascript
-import slangs from 'slangs';
+import { slangs, languages } from 'slangs';
 ```
 
-### Functionality
+### Functionality `slangs` anfd `languages`
 
-The `slangs` function supports the following parameters:
+**The `slangs` function supports the following parameters:**
 
 - **language**: A string specifying the language for which you want to retrieve slangs. Supported languages include:
 
@@ -41,6 +49,18 @@ The `slangs` function supports the following parameters:
   - `french`
 
 - **count**: An optional integer specifying the number of slangs to return. Defaults to `1` if not provided.
+
+**The `languages` function retrieves the list of supported languages for the `slangs` package.**
+
+To get the list of supported languages, you can call the `languages` function:
+
+```javascript
+const { languages } = require('slangs');
+
+// Get the list of supported languages
+console.log(languages()); 
+// Returns an array of supported languages
+```
 
 ### Example Usage
 
@@ -65,7 +85,8 @@ The `slangs` function supports the following parameters:
    To get a specific number of random slangs from a given language:
 
    ```javascript
-   console.log(slangs('english', 3)); // Get 3 random English slangs
+   console.log(slangs('english', 3)); 
+   // Get 3 random English slangs
    ```
 
    If the requested number exceeds the available slangs, the function will return only the available ones.
@@ -75,7 +96,8 @@ The `slangs` function supports the following parameters:
    If a language is not supported, the function will return a message indicating that support is unavailable:
 
    ```javascript
-   console.log(slangs('spanish', 2)); // Returns "Sorry, we don't support spanish yet."
+   console.log(slangs('spanish', 2)); 
+   // Returns "Sorry, we don't support spanish yet."
    ```
 
 ### Return Values
@@ -88,7 +110,11 @@ The `slangs` function supports the following parameters:
 Here’s a full example of how to implement the `slangs` package:
 
 ```javascript
-const slangs = require('slangs');
+const { slangs, languages } = require('slangs');
+
+// Get the list of supported languages
+console.log(languages()); 
+// Returns an array of supported languages
 
 // Get all slangs
 console.log(slangs());
@@ -103,7 +129,8 @@ console.log(slangs('bengali', 4));
 console.log(slangs('english', 3));
 
 // Get random slangs from an unsupported language
-console.log(slangs('spanish', 2)); // Returns "Sorry, we don't support spanish yet."
+console.log(slangs('spanish', 2)); 
+// Returns "Sorry, we don't support spanish yet."
 ```
 
 ## Contributing

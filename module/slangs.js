@@ -1,8 +1,4 @@
-// Import the slang words
-const words = require('./slangWords'); // Import using CommonJS
-
-// Function to list supported languages
-const languages = () => Object.keys(words);
+const words = require('../slangWords'); // Import using CommonJS
 
 const slangs = (language, count = 1) => {
   // If no language is provided, return all slangs
@@ -37,5 +33,4 @@ const slangs = (language, count = 1) => {
   return selectedSlangs; // Returns an array of random slangs
 };
 
-// Export the slangs function
-module.exports = { slangs, languages }; // Export using CommonJS
+module.exports = { slangs }; // Export using CommonJS

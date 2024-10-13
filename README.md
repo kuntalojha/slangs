@@ -38,7 +38,7 @@ For projects using ES6 modules, you can also import it as follows:
 import { slangs, languages } from 'slangs';
 ```
 
-### Functionality `slangs` anfd `languages`
+### Functionality `slangs` and `languages`
 
 **The `slangs` function supports the following parameters:**
 

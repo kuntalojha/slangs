@@ -1,4 +1,4 @@
-const { slangs, languages } = require('./src/index');
+const { slangs, languages } = require('./index');
 
 // Get list of supported languages
 console.log(languages());

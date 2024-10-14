@@ -3,15 +3,15 @@
 ![](./hero.jpg)
 
 ## Overview
-
 The `slangs` package provides a simple and efficient way to retrieve slang words in multiple languages, including English, Bengali, and French. Users can fetch all available slangs, get random slangs from a specific language, and even specify the number of slangs they want to receive.
 
 ## Installation
 
 To install the `slangs` package, simply include it in your project:
 
-**NPM**
-
+[![npm](https://img.shields.io/npm/v/slangs.svg)](https://www.npmjs.com/package/slangs)
+![License](https://img.shields.io/npm/l/slangs.svg)
+![Downloads](https://img.shields.io/npm/dt/slangs.svg)
 ```bash
  npm install slangs
 ```

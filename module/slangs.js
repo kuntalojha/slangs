@@ -1,7 +1,7 @@
 const words = require('../slangWords'); // Import using CommonJS
 
 const slangs = (language, count = 1) => {
-  // If no language is provided, return all slangs
+  // If no language is provided, return all slangs for all languages
   if (!language) {
     return Object.keys(words).reduce((acc, lang) => {
       acc[lang] = words[lang]; // Add each language's slangs to the result
@@ -13,24 +13,14 @@ const slangs = (language, count = 1) => {
 
   // Check if the language is supported
   if (!slangList) {
-    return `Sorry, we don't support ${language} yet.`; // Return message for unsupported languages
+    return `Sorry, we don't support ${language} yet.`; // Message for unsupported languages
   }
 
   // Adjust count if it exceeds the number of available slangs
   const maxCount = Math.min(count, slangList.length);
 
-  const selectedSlangs = [];
-  while (selectedSlangs.length < maxCount) {
-    const randomIndex = Math.floor(Math.random() * slangList.length);
-    const selectedSlang = slangList[randomIndex];
-
-    // Ensure the same slang is not selected again
-    if (!selectedSlangs.includes(selectedSlang)) {
-      selectedSlangs.push(selectedSlang);
-    }
-  }
-
-  return selectedSlangs; // Returns an array of random slangs
+  // Return the first 'maxCount' slangs from the list
+  return slangList.slice(0, maxCount);
 };
 
 module.exports = { slangs }; // Export using CommonJS

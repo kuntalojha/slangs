@@ -1,6 +1,6 @@
 {
   "name": "slangs",
-  "version": "1.0.0-beta.6",
+  "version": "1.0.0-beta.7",
   "description": "Add fun to your conversations with this slang generator, offering playful slangs in multiple languages for you and your friends!",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,35 @@
+# Ignore node_modules (just in case)
+node_modules/
+
+# Ignore build tools and configs
+.vscode/
+.env
+*.log
+
+# Ignore tests and documentation
+test/
+__tests__/
+coverage/
+*.spec.js
+test.test.js
+
+# Ignore local config and temp files
+.DS_Store
+*.swp
+
+# Ignore build output if not needed
+dist/
+build/
+
+# Ignore example and demo files
+example/
+demo/
+
+# Ignore lock files (optional, some people prefer publishing with them)
+package-lock.json
+yarn.lock
+
+# Ignore README examples if they're in a specific folder
+docs/
+!README.md
+*.md

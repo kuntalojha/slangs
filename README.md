@@ -1,4 +1,5 @@
-# slangs
+# slangs ![Downloads](https://img.shields.io/npm/dt/slangs.svg)
+
 ![](https://github.com/kuntalojha/slangs/blob/main/hero.jpg)
 
 

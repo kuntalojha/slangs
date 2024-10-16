@@ -5,13 +5,14 @@ node_modules/
 .giihub
 .git
 .jpg
+LICENCE
 # Ignore build tools and configs
 .vscode/
 .env
 *.log
 
 # Ignore tests and documentation
-test/
+test
 __tests__/
 coverage/
 *.spec.js

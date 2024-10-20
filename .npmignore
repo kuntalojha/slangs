@@ -1,40 +1,39 @@
-# Ignore node_modules (just in case)
-node_modules/
+# Here is the npmignore file.
+# You can ignore files and folders in this file.
 
-# Ignore giihub & git
-.giihub
-.git
-.jpg
-LICENCE
-# Ignore build tools and configs
-.vscode/
-.env
-*.log
+# For package-lock.json file.
+package-lock.json
 
-# Ignore tests and documentation
-test
-__tests__/
-coverage/
-*.spec.js
+# For all jpg files
+*.jpg
+
+
+# For ignoring test folder
+test/
+
+# For ignoring vitest.config.js
+vitest.config.js
+
+# For ignoring test.test.js files
 test.test.js
 
-# Ignore local config and temp files
-.DS_Store
-*.swp
+# For ignoring node_modules folder
+node_modules/
 
-# Ignore build output if not needed
-dist/
-build/
+# For ignoring .npmignore files
+.npmignore
 
-# Ignore example and demo files
-example/
-demo/
+# For ignoring .git folder
+.git/
 
-# Ignore lock files (optional, some people prefer publishing with them)
-package-lock.json
-yarn.lock
+# For ignoring .github folder
+.github/
 
-# Ignore README examples if they're in a specific folder
-docs/
-!README.md
+# For ignoring .gitignore file
+.gitignore
+
+# For ignoring .md files 
 *.md
+
+# For ignoring README.md
+!README.md

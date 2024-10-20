@@ -18,6 +18,9 @@ console.log(slangs('english', 3)); // Returns 3 random English slangs
 // Get random slangs from unsupported language
 console.log(slangs('spanish', 2)); // Returns []
 
+// Get random slangs from unsupported language
+console.log(random('spanish', 2)); // Returns []
+
 console.log(random()); // Get all slangs
 
 // Get a random Bengali slang (1 slang)

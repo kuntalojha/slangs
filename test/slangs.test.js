@@ -14,3 +14,4 @@ console.log(slangs('english', 3)); // Returns 3 random English slangs
 
 // Get random slangs from unsupported language
 console.log(slangs('spanish', 2)); // Returns []
+

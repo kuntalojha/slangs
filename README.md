@@ -48,6 +48,7 @@ import { slangs, random, languages } from 'slangs';
 
   - `english`
   - `bengali`
+  - `hindi`
   - `french`
 
 - **count**: An optional integer specifying the number of slangs to return. Defaults to `1` if not provided.
@@ -189,6 +190,12 @@ console.log(slangs('english', 3));
 
 // Get 3 random slangs from English
 console.log(slangs('english', 3));
+
+// Get 4 slangs from Hindi
+console.log(slangs('hindi', 4));
+
+// Get 4 random slangs from Hindi
+console.log(random('hindi', 4));
 
 // Get slangs from an unsupported language
 console.log(slangs('spanish', 2));

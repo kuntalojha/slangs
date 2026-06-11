@@ -1,14 +1,17 @@
 # slangs !
 
 >  A multilingual slang dictionary and random slang generator featuring English, Hindi, Bengali, Tamil, Telugu, Marathi, Odia, Assamese, French, Kannada, and more. Created by [@kuntalojha](https://github.com/kuntalojha) as a fun open-source project for developers, language enthusiasts, and anyone interested in exploring slang across different languages. 
-![](https://github.com/kuntalojha/slangs/blob/main/hero.jpg)
 
-## Overview
+![slangs](https://github.com/kuntalojha/slangs/blob/main/hero.jpg)
+
+## Overview 
+[![npm](https://img.shields.io/npm/v/slangs.svg)](https://www.npmjs.com/package/slangs)
+![License](https://img.shields.io/npm/l/slangs.svg)
+![Downloads](https://img.shields.io/npm/dt/slangs.svg)
 
 The `slangs` package provides a simple and efficient way to retrieve slang words in multiple languages, including English, Bengali, and French. Users can fetch all available slangs, get random slangs from a specific language, and even specify the number of slangs they want to receive.
 
----
-
+--- 
 ## 🌍 Supported Languages
 
 | Language | Slangs | Language | Slangs |
@@ -18,14 +21,10 @@ The `slangs` package provides a simple and efficient way to retrieve slang words
 | Hindi    | 215+   | Kannada  | 230+   |
 | Marathi  | 220+   | Odia     | 145+   |
 | Tamil    | 220+   | Telugu   | 200+   |
+---
 
 ## Installation
-
 To install the `slangs` package, simply include it in your project:
-
-[![npm](https://img.shields.io/npm/v/slangs.svg)](https://www.npmjs.com/package/slangs)
-![License](https://img.shields.io/npm/l/slangs.svg)
-![Downloads](https://img.shields.io/npm/dt/slangs.svg)
 
 ```bash
  npm install slangs
@@ -37,6 +36,7 @@ To install the `slangs` package, simply include it in your project:
 | **PNPM**        | `pnpm add slangs` |
 | **BUN**         | `bun add slangs`  |
 
+--- 
 ## 🔑 API Reference
 
 | Function                  | Return Type | Description                                                                     |

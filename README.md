@@ -1,10 +1,23 @@
-# slangs ![Downloads](https://img.shields.io/npm/dt/slangs.svg)
+# slangs !
 
+>  A multilingual slang dictionary and random slang generator featuring English, Hindi, Bengali, Tamil, Telugu, Marathi, Odia, Assamese, French, Kannada, and more. Created by [@kuntalojha](https://github.com/kuntalojha) as a fun open-source project for developers, language enthusiasts, and anyone interested in exploring slang across different languages. 
 ![](https://github.com/kuntalojha/slangs/blob/main/hero.jpg)
 
 ## Overview
 
 The `slangs` package provides a simple and efficient way to retrieve slang words in multiple languages, including English, Bengali, and French. Users can fetch all available slangs, get random slangs from a specific language, and even specify the number of slangs they want to receive.
+
+---
+
+## 🌍 Supported Languages
+
+| Language | Slangs | Language | Slangs |
+| -------- | ------ | -------- | ------ |
+| Assamese | 165+   | Bengali  | 200+   |
+| English  | 220+   | French   | 200+   |
+| Hindi    | 215+   | Kannada  | 230+   |
+| Marathi  | 220+   | Odia     | 145+   |
+| Tamil    | 220+   | Telugu   | 200+   |
 
 ## Installation
 
@@ -24,11 +37,25 @@ To install the `slangs` package, simply include it in your project:
 | **PNPM**        | `pnpm add slangs` |
 | **BUN**         | `bun add slangs`  |
 
-## Usage
+## 🔑 API Reference
+
+| Function                  | Return Type | Description                                                                     |
+| ------------------------- | ----------- | ------------------------------------------------------------------------------- |
+| `slangs()`                | `Object`    | Returns all available slang datasets grouped by language.                       |
+| `slangs(language)`        | `string[]`  | Returns slang words for the specified language.                                 |
+| `slangs(language, count)` | `string[]`  | Returns the requested number of slang words from the specified language.        |
+| `random()`                | `string`    | Returns a random slang word from all available languages.                       |
+| `random(language)`        | `string`    | Returns a random slang word from the specified language.                        |
+| `random(language, count)` | `string[]`  | Returns the requested number of random slang words from the specified language. |
+| `languages()`             | `string[]`  | Returns a list of all supported languages.                                      |
+
+---
+
+## Usage Instructions
 
 ### Importing the Package
 
-To use the `slangs` package in your project, you can import it using CommonJS syntax:
+- To use the `slangs` package in your project, you can import it using CommonJS syntax:
 
 ```javascript
 const { slangs, random, languages } = require('slangs');
@@ -40,16 +67,23 @@ For projects using ES6 modules, you can also import it as follows:
 import { slangs, random, languages } from 'slangs';
 ```
 
-### Functionality `slangs`, `random`, and `languages`
+## Functionality
 
-**The `slangs` function supports the following parameters:**
+> The `slangs` package provides the following functions: `slangs`, `random`, and `languages`
+
+### The `slangs` Function:
 
 - **language**: A string specifying the language for which you want to retrieve slangs. Supported languages include:
-
-  - `english`
-  - `bengali`
-  - `hindi`
-  - `french`
+  - **Assamese**: `assamese`
+  - **Bengali**: `bengali`
+  - **English**: `english`
+  - **French**: `french`
+  - **Hindi**: `hindi`
+  - **Kannada**: `kannada`
+  - **Marathi**: `marathi`
+  - **Odia**: `odia`
+  - **Tamil**: `tamil`
+  - **Telugu**: `telugu`
 
 - **count**: An optional integer specifying the number of slangs to return. Defaults to `1` if not provided.
 
@@ -213,3 +247,46 @@ Contributions to the `slangs` package are welcome! If you have suggestions or im
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/license/mit). See the [LICENSE](LICENSE) file for more details.
+
+## 👨‍💻 Author
+
+**Kuntal Ojha**
+
+- GitHub: [@kuntalojha](https://github.com/kuntalojha)
+- npm: [@kuntalojha](https://www.npmjs.com/~kuntalojha)
+- LinkedIn: [@mrkuntalojha](https://linkedin.com/in/mrkuntalojha)
+- X (Twitter): [@kuntalojha](https://twitter.com/kuntalojha)
+- Instagram: [@mrkuntalojha](https://instagram.com/mrkuntalojha)
+
+---
+
+## 🤝 Contributing
+
+Contributions, feature requests, and suggestions are welcome!
+
+If you'd like to improve the slang dataset, add support for new languages, fix issues, or enhance the package, feel free to open an issue or submit a pull request.
+
+---
+
+## ❤️ Support the Project
+
+<p align="center">
+  <a href="https://www.buymeachai.in/kuntalojha">
+    <img src="https://img.shields.io/badge/☕%20Buy%20Me%20a%20Chai-Support-orange?style=for-the-badge" alt="Buy Me a Chai">
+  </a>
+</p>
+
+<p align="center">
+  🌍 Building multilingual language tools<br>
+  💬 Slang Dictionaries • 📚 Language Data • 🚀 Developer Utilities
+</p>
+
+<p align="center">
+  <i>Your support helps maintain and expand the slang database with more languages and better coverage.</i>
+</p>
+
+---
+
+<h3 align="center">
+  <i>Made with ❤️ by Kuntal Ojha</i>
+</h3>

@@ -130,3 +130,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 test.test.js
+
+# For ignoring .prettierrc.js files
+.prettierrc.js

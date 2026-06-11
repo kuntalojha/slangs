@@ -1,15 +1,28 @@
-const englishSlangs = require('./languages/english');
+// slangWords.js
+const assameseSlangs = require('./languages/assamese');
 const bengaliSlangs = require('./languages/bengali');
+const englishSlangs = require('./languages/english');
 const frenchSlangs = require('./languages/french');
 const hindiSlangs = require('./languages/hindi');
+const kannadaSlangs = require('./languages/kannada');
+const marathiSlangs = require('./languages/marathi');
+const odiaSlangs = require('./languages/odia');
+const tamilSlangs = require('./languages/tamil');
+const teluguSlangs = require('./languages/telugu');
+
 
 // Combine slangs into an object
 const words = {
-  english: englishSlangs,
+  assamese: assameseSlangs,
   bengali: bengaliSlangs,
+  english: englishSlangs,
   french: frenchSlangs,
   hindi: hindiSlangs,
-  // Add more languages as needed
+  kannada: kannadaSlangs,
+  marathi: marathiSlangs,
+  odia: odiaSlangs,
+  tamil: tamilSlangs,
+  telugu: teluguSlangs
 };
 
 module.exports = words; // Exporting the words object

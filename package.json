@@ -1,6 +1,6 @@
 {
   "name": "slangs",
-  "version": "1.1.0-beta.9",
+  "version": "1.1.1-beta.9",
   "description": "A multilingual slang dictionary and random slang generator with English, Hindi, Bengali, Tamil, Telugu, Marathi, Odia, Assamese, French, and more.",
   "main": "index.js",
   "scripts": {

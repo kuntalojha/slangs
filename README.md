@@ -1,17 +1,19 @@
 # slangs !
 
->  A multilingual slang dictionary and random slang generator featuring English, Hindi, Bengali, Tamil, Telugu, Marathi, Odia, Assamese, French, Kannada, and more. Created by [@kuntalojha](https://github.com/kuntalojha) as a fun open-source project for developers, language enthusiasts, and anyone interested in exploring slang across different languages. 
-
-![slangs](https://github.com/kuntalojha/slangs/blob/main/hero.jpg)
-
-## Overview 
 [![npm](https://img.shields.io/npm/v/slangs.svg)](https://www.npmjs.com/package/slangs)
 ![License](https://img.shields.io/npm/l/slangs.svg)
 ![Downloads](https://img.shields.io/npm/dt/slangs.svg)
 
+> A multilingual slang dictionary and random slang generator featuring English, Hindi, Bengali, Tamil, Telugu, Marathi, Odia, Assamese, French, Kannada, and more. Created by [@kuntalojha](https://github.com/kuntalojha) as a fun open-source project for developers, language enthusiasts, and anyone interested in exploring slang across different languages.
+
+![slangs](https://github.com/kuntalojha/slangs/blob/main/hero.jpg)
+
+## Overview
+
 The `slangs` package provides a simple and efficient way to retrieve slang words in multiple languages, including English, Bengali, and French. Users can fetch all available slangs, get random slangs from a specific language, and even specify the number of slangs they want to receive.
 
---- 
+---
+
 ## 🌍 Supported Languages
 
 | Language | Slangs | Language | Slangs |
@@ -21,9 +23,12 @@ The `slangs` package provides a simple and efficient way to retrieve slang words
 | Hindi    | 215+   | Kannada  | 230+   |
 | Marathi  | 220+   | Odia     | 145+   |
 | Tamil    | 220+   | Telugu   | 200+   |
+| Gen Z    | 150+   |          |        |
+
 ---
 
 ## Installation
+
 To install the `slangs` package, simply include it in your project:
 
 ```bash
@@ -36,7 +41,8 @@ To install the `slangs` package, simply include it in your project:
 | **PNPM**        | `pnpm add slangs` |
 | **BUN**         | `bun add slangs`  |
 
---- 
+---
+
 ## 🔑 API Reference
 
 | Function                  | Return Type | Description                                                                     |
@@ -244,6 +250,7 @@ console.log(random('spanish', 2));
 ## 🎉 What's New in 1.1.0-beta.9 and later
 
 ### 🔥 Gen Z Slang Support Added
+
 > The `slangs` package now includes slang terms from the Gen Z generation.
 
 ```js
@@ -261,7 +268,6 @@ console.log(random('genz', 5));
 - rizz • sus • delulu • slay • no cap • bussin • drip • mid • bet • goated • aura • cooked • locked in • touch grass • brainrot • ratio • caught in 4k • based • cringe • cheugy • flex • salty And many more!
 
 - Stay tuned as the Gen Z collection continues to grow with future updates.
-
 
 ## Contributing
 

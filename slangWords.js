@@ -9,7 +9,7 @@ const marathiSlangs = require('./languages/marathi');
 const odiaSlangs = require('./languages/odia');
 const tamilSlangs = require('./languages/tamil');
 const teluguSlangs = require('./languages/telugu');
-
+const genzSlangs = require('./languages/genz');
 
 // Combine slangs into an object
 const words = {
@@ -22,7 +22,8 @@ const words = {
   marathi: marathiSlangs,
   odia: odiaSlangs,
   tamil: tamilSlangs,
-  telugu: teluguSlangs
+  telugu: teluguSlangs,
+  genz: genzSlangs,
 };
 
 module.exports = words; // Exporting the words object

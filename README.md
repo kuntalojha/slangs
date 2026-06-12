@@ -84,6 +84,7 @@ import { slangs, random, languages } from 'slangs';
   - **Odia**: `odia`
   - **Tamil**: `tamil`
   - **Telugu**: `telugu`
+  - **Genz**: `genz`
 
 - **count**: An optional integer specifying the number of slangs to return. Defaults to `1` if not provided.
 
@@ -240,6 +241,28 @@ console.log(random('spanish', 2));
 // Returns "Sorry, we don't support spanish yet."
 ```
 
+## 🎉 What's New in 1.1.0-beta.9 and later
+
+### 🔥 Gen Z Slang Support Added
+> The `slangs` package now includes slang terms from the Gen Z generation.
+
+```js
+const { slangs, random } = require('slangs');
+
+console.log(random('genz'));
+// Example: ["rizz"]
+
+console.log(random('genz', 5));
+// Example: ["sus", "delulu", "slay", "mid", "bet"]
+```
+
+### ✨ Popular Gen Z Terms Included
+
+- rizz • sus • delulu • slay • no cap • bussin • drip • mid • bet • goated • aura • cooked • locked in • touch grass • brainrot • ratio • caught in 4k • based • cringe • cheugy • flex • salty And many more!
+
+- Stay tuned as the Gen Z collection continues to grow with future updates.
+
+
 ## Contributing
 
 Contributions to the `slangs` package are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
@@ -271,7 +294,7 @@ If you'd like to improve the slang dataset, add support for new languages, fix i
 ## ❤️ Support the Project
 
 <p align="center">
-  <a href="https://www.buymeachai.in/kuntalojha">
+  <a href="https://kuntalojha.github.io/payment/">
     <img src="https://img.shields.io/badge/☕%20Buy%20Me%20a%20Chai-Support-orange?style=for-the-badge" alt="Buy Me a Chai">
   </a>
 </p>

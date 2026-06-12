@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.1.0-beta.9] -2026-06-11
+
+### Add GenZ slang Support
+
+- `genz` slang support added.
+- Support for more languages will be added in the future.
+
+---
+
 ## [1.1.1-beta.8] -2026-06-11
 
 ### Add New Language Support
